@@ -9,6 +9,7 @@
 + 删除本地分支：`git branch -d <branchName>`
 + 删除远程分支：`git push -d origin <branchName>`
 + 重命名分支：`git branch -m <oldBranchName> <newBranchName>`
++ 将远程git仓库里的指定分支拉取到本地(本地不存在的分支)：`git checkout -b 本地分支名 origin/远程分支名`
 + 从远程仓库获取所有分支：
 
 ```
