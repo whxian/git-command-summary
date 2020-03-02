@@ -3,11 +3,13 @@
 + 查看本地分支：`git branch`
 + 查看远程分支：`git branch -r`
 + 查看本地+远程分支：`git branch -a`
++ 关联本地分支和远程分支：`git branch --set-upstream-to=origin/<originBranchName> <currentBranchName>`
 + 查看最近一次提交的版本号及commit：`git branch -v`
 + 查看近三次提交的版本号及commit：`git branch -vv`
 + 合并指定分支到当前分支：`git merge <branchName>`
 + 删除本地分支：`git branch -d <branchName>`
 + 删除远程分支：`git push -d origin <branchName>`
++ 在本地删除远程已经不存在的分支：`git fetch -p`
 + 重命名分支：`git branch -m <oldBranchName> <newBranchName>`
 + 将远程git仓库里的指定分支拉取到本地(本地不存在的分支)：`git checkout -b 本地分支名 origin/远程分支名`
 + 从远程仓库获取所有分支：
