@@ -12,6 +12,7 @@
 + 在本地删除远程已经不存在的分支：`git fetch -p`
 + 重命名分支：`git branch -m <oldBranchName> <newBranchName>`
 + 将远程git仓库里的指定分支拉取到本地(本地不存在的分支)：`git checkout -b 本地分支名 origin/远程分支名`
++ 将远程git仓库里的指定分支拉取到本地(本地会创建出与远程分支同名的分支)：`git checkout --track origin/远程分支名`
 + 从远程仓库获取所有分支：
 
 ```
