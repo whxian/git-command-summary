@@ -53,6 +53,16 @@
 4. `git stash branch`
 
    从最新的stash创建分支
+   
+5. `git stash -p + 指定文件`
+   暂存指定文件
+   ```
+   常规 git stash 的一个限制是它会一下暂存所有的文件。有时，只备份某些文件更为方便，让另外一些与代码库保持一致。一个非常有用的技巧，用来备份部分文件：
+
+   1. add 那些你不想备份的文件（例如： git add file1.js, file2.js）
+   2. 调用 git stash –keep-index。只会备份那些没有被add的文件。
+   3. 调用 git reset 取消已经add的文件的备份，继续自己的工作。
+```
 
    
 
