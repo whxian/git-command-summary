@@ -62,7 +62,7 @@
    1. add 那些你不想备份的文件（例如： git add file1.js, file2.js）
    2. 调用 git stash –keep-index。只会备份那些没有被add的文件。
    3. 调用 git reset 取消已经add的文件的备份，继续自己的工作。
-```
+   ```
 
    
 
