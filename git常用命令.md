@@ -118,6 +118,10 @@
 
 - 查看所有分支的所有操作记录：`git reflog`（包括已经被删除的 commit 记录和 reset 的操作）
 
+- 查看工作区与最后一次commit(HEAD)记录的详细增删改：`git diff`
+
+- 查看暂存区(已add未commit)与最后一次commit(HEAD)记录的详细增删改：`git diff --cached` 或 `git diff --staged`
+
 ---
 
 **git中一些选项解释**
