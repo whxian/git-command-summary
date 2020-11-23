@@ -44,7 +44,7 @@
 
    查看堆栈中最新保存的stash和当前目录的差异
 
-   > 查看指定的stash和当前目录的差异：`git stash show stash@{1}
+   > 查看指定的stash和当前目录的差异：`git stash show stash@{1}`
    >
    > 查看详细不同：`git stash show -p`
    >
